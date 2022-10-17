@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start">
+            <h1>Start</h1>
+            <h2>CATEGORY</h2>
+            <form id="category">
+                <input type="radio" name="category" id="abstract">
+                <label for="abstract">Abstract</label>
+                <input type="radio" name="category" id="nature">
+                <label for="nature">Nature</label>
+                <input type="radio" name="people" id="people">
+                <label for="people">People</label>
+                <input type="radio" name="animals" id="animals">
+                <label for="animals">Animals</label>
+                
+            </form>
+            <h2>CARD COUNT</h2>
+            <div id="count">
+                <button>-</button>
+                <h2>2</h2>
+                <button>+</button>
+            </div>
+            <button id="start">Start</button>
+        </div>
+        <div id="card"></div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
